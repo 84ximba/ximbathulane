@@ -1,0 +1,12 @@
+# Ignore the Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore Django migrations
+*/migrations/*
+
+# Ignore all log files
+*.log
+
+# Ignore the virtual environment directory
+venv/

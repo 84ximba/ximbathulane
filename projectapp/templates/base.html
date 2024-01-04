@@ -1,0 +1,17 @@
+<!-- base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Head elements... -->
+</head>
+<body>
+    <nav>
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'blog_index' %}">Blog</a>
+        <!-- Add more links as needed... -->
+    </nav>
+    {% block content %}
+    <!-- This block will be overridden by child templates -->
+    {% endblock %}
+</body>
+</html>
